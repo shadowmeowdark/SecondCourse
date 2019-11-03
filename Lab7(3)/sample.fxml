@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ComboBox fx:id="box1" layoutX="14.0" layoutY="14.0" prefWidth="120.0" prefHeight="25.0" promptText="Кто" />
+        <ComboBox fx:id="box2" layoutX="144.0" layoutY="14.0" prefWidth="120.0" prefHeight="25.0" promptText="Как ушел" />
+        <ComboBox fx:id="box3" layoutX="274.0" layoutY="14.0" prefWidth="120.0" prefHeight="25.0" promptText="Куда" />
+        <TextArea fx:id="text" layoutX="28.0" layoutY="70.0" prefHeight="208.0" prefWidth="350.0" promptText="" />
+        <Button fx:id="buttonAdd" layoutX="400.0" layoutY="160.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="180.0" text="Добавить фразу" />
+        <Button fx:id="buttonClose" layoutX="422.0" layoutY="200.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="127.0" text="Закрыть" />
+    </children>
+</AnchorPane>
